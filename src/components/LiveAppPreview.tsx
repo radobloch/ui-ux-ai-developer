@@ -56,7 +56,7 @@ export const LiveAppPreview: React.FC = () => {
   };
 
   return (
-    <div className="space-y-4">
+    <div className="live-preview space-y-4">
       {/* Simulation Bar */}
       <div className="flex items-center justify-between px-4 py-2.5 bg-slate-900 rounded-xl border border-slate-800 text-xs">
         <div className="flex items-center gap-2">

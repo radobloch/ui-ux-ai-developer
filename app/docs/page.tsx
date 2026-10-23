@@ -163,7 +163,7 @@ export default function DocsPage() {
   };
 
   return (
-    <div className="space-y-8 max-w-5xl mx-auto px-2 sm:px-4 py-4">
+    <div className="app-page space-y-8 max-w-5xl mx-auto px-2 sm:px-4 py-4">
       {/* Sekcja Nagłówka */}
       <section className="text-center space-y-3">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 text-blue-600 dark:text-blue-400 text-xs font-semibold border border-blue-500/20">

@@ -6,6 +6,10 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     plugins: [react(), tailwindcss()],
+    define: {
+      // Keep Node-only environment access safe in the browser without embedding secrets.
+      'process.env': '{}',
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),
